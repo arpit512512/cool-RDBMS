@@ -1,6 +1,6 @@
 # cool-RDBMS
 
-## Files Description
+## Files Description<br />
 
 ● data - Directory contains all files related to saved table.<br />
 - For each table there are two files table_name_data.txt which contains all tuples of table and table_name_desc.txt which
@@ -9,7 +9,7 @@ contains information about table columns or attributes first line contains table
 ● queries.txt - Contains various queries which can be performed for tables stored in data file like Customer and CustomerPhone.<br />
 ● Readme.pdf - Contains description related to input format and how to set up this program running and install dependencies .
 
-## Setup
+## Setup<br />
 ● Extract the zip folder in CD.<br />
 ● Open shell and go inside this folder using cd command in terminal.<br />
 ● Run the code.cpp using command “g++ -std=c++11 code.cpp -o code” for compiling and then “./code” for execution.<br />
@@ -17,7 +17,7 @@ contains information about table columns or attributes first line contains table
 ● After performing all queries enter exit to move out of the program “Good bye...” message appears.<br />
 
 
-## Queries:
+## Queries:<br />
 ● Project<br />
 : P( [ col1, col2, col3 ], table_name );<br />
 - col1, col2, col3 and so on..are name of columns present in table.
