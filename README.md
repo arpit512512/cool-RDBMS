@@ -1,6 +1,5 @@
 # cool-RDBMS
 
-<br />
 ## Files Description
 
 ● data - Directory contains all files related to saved table.<br />
@@ -9,8 +8,6 @@ contains information about table columns or attributes first line contains table
 ● code.cpp - Complete documented c++ code for this project.<br />
 ● queries.txt - Contains various queries which can be performed for tables stored in data file like Customer and CustomerPhone.<br />
 ● Readme.pdf - Contains description related to input format and how to set up this program running and install dependencies .
-<br />
-<br />
 
 ## Setup
 ● Extract the zip folder in CD.<br />
@@ -18,8 +15,7 @@ contains information about table columns or attributes first line contains table
 ● Run the code.cpp using command “g++ -std=c++11 code.cpp -o code” for compiling and then “./code” for execution.<br />
 ● If not able to compile then directly run compiled file by “./code” .● “Welcome to SQL..” message appears then enter any query command from queries.txt or making you own command.<br />
 ● After performing all queries enter exit to move out of the program “Good bye...” message appears.<br />
-<br />
-<br />
+
 
 ## Queries:
 ● Project<br />
@@ -69,7 +65,7 @@ Examples:<br />
 Examples:<br />
 -exit<br />
 
-#Error HandlingError codes and their description :-<br />
+## Error HandlingError codes and their description :-<br />
 ● error_code 0 : Table not present.<br />
 ● error_code 1 : Column name not present in table.<br />
 ● error_code 2 : No of column does not match.<br />
