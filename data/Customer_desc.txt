@@ -1,0 +1,3 @@
+Customer
+Id	Name	Age	Email	Sex	Adrress	City	PostalCode	Country
+1	2	1	2	2	2	2	2	2

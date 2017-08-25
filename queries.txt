@@ -1,0 +1,18 @@
+S([*],Customer);
+P([Name,Age,Sex],Customer);
+S([Age>20,Sex=F],Customer);
+P([Name,Age,Sex],S([Age<=20],Customer));
+S([Age<=22,Sex=F],P([Name,Age,Sex],Customer));
+R(new_Customer,[],Customer);
+R(new_Customer,[Cust_Name,Cust_Age,Cust_Sex],P([Name,Age,Sex],Customer));
+U( S([Age>20],Customer), S([City=Delhi],Customer));
+P([Id,Name,Age,Sex,City],U( S([Age<20],Customer), S([City=Delhi],Customer)));
+S([Age>20],Customer);
+D(S([Age>20],Customer),S([Sex=F],Customer));
+D(S([Age>=21],Customer),S([City=Delhi],Customer));
+C( Customer, R(Customer2,[],Customer) );
+S([*],CustomerPhone);
+S([Customer.Id=CustomerPhone.Cust_Id],C(Customer, CustomerPhone ));
+P([Customer.Name,CustomerPhone.Phone],S([Customer.Id=CustomerPhone.Cust_Id],C(Customer,CustomerPhone)));
+R(CustPhone,[cust_name,cust_phone],P([Customer.Name,CustomerPhone.Phone],S([Customer.Id=CustomerPhone.Cust_Id],C(Customer,CustomerPhone))));
+exit

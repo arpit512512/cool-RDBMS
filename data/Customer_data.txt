@@ -1,0 +1,15 @@
+1	Arpit	21	arpit512@gmail.com	M	101-Raj nagar	Mathura	12209	India
+2	Mayank	19	mayank512@gmail.com	M	121-Hanuman nagar	Delhi	05021	India
+3	Atishay	15	atishay512@gmail.com	M	C2-Raj nagar	Panna	05023	India
+4	Tanisha	20	tanisha12@gmail.com	F	43-kris market	Agra	68306	India
+5	Devang	18	devang@gmail.com	M	56-manali colony	Manali	28023	India
+6	Ayush	19	ayush@gmail.com	M	43-kris market	Banglore	13008	India
+7	Pranav	32	pranav2@gmail.com	M	131-Radha nagar	Varanasi	68301	India
+8	Anant	25	anant12@gmail.com	M	B2-viram nagar	Berlin	13001	Germany
+9	Arushi	31	arushi@gmail.com	F	Ravidas Gate	Varanasi	3012	India
+10	Sarthak	21	sarthak@gmail.com	M	131-Radha nagar	Delhi	8010	India
+11	Vipul	17	vipul@gmail.com	M	121-Hanuman nagar	Agra	68306	India
+12	Prant	26 	pranav2@gmail.com	M	56-manali colony	Varanasi	3012	India
+13	Rithika	24	rithika@gmail.com	F	B12-Arnab bihar	Delhi	05021	India
+14	Pranshu	18	pranshu@gmail.com	M	52-manali colony	Varanasi	3012	India
+15	Divya	28	divyam@gmail.com	F	B11-Arnab bihar	Delhi	05021	India

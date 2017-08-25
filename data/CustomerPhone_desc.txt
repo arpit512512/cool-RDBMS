@@ -1,0 +1,3 @@
+CustomerPhone
+Cust_Id	Phone
+1	2
