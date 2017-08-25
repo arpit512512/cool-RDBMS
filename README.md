@@ -1,6 +1,7 @@
 # cool-RDBMS
 
-#Files Description
+# Files Description
+\\
 ● data - Directory contains all files related to saved table.
 - For each table there are two files table_name_data.txt which contains all tuples of table and table_name_desc.txt which
 contains information about table columns or attributes first line contains table name, second line names of all column and third line contains code for table columns data type.
